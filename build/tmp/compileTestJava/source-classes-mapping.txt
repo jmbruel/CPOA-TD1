@@ -1,0 +1,2 @@
+com/cpoa/td1/TestHello.java
+ com.cpoa.td1.TestHello
