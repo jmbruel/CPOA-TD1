@@ -1,2 +1,0 @@
-com/cpoa/td1/Hello.java
- com.cpoa.td1.Hello
