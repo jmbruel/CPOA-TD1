@@ -60,8 +60,50 @@ Try the following command to check your git environment:
 * [ ] Commit and push using the following message:
 
 ....
-    fix #0 Initial task done
+    fix: #0 Initial task done
 ....
+
+:numbered:
+== Sprint 0
+
+You've noticed that your repo comes with some initial code.
+
+To launch the tests on this code, try:
+
+[source,shell]
+----
+gradle test
+----
+
+[NOTE]
+====
+The test should fail, and your auto-grading, from your previous commit should be 0. Check your last commit:
+
+.Access to your commit status
+image::check.png[]
+
+.Get details on faillure
+image::autograding.png[]
+====
+
+. Correct the code to make the test pass.
+. Commit & push your correct code with the following message:
++
+....
+    fix: #1 Fixing main to make the test pass!
+....
++
+. Check again your commmit
++
+.Get details on success :-)
+image::autogradingOK.png[width=80%]
+
+== Let's start the real work now!
+
+[source,shell]
+----
+merge branch sprint0
+----
 
 == Contributors
 
